@@ -1,0 +1,208 @@
+	@import url('https://fonts.googleapis.com/css?family=Poppins:wght@500&display=swap&effect=shadow-multiple|fire-animation');
+	@import url('https://fonts.googleapis.com/css2?family=Italianno&display=swap');
+	
+	header, nav, main, footer, figure, figcaption {display: block;}
+	
+	
+	* {box-sizing: border-box;
+	}
+	body {font-family: Verdana, Arial, sans-serif;
+		background-color: #6EB4F5;
+	}
+	
+ 
+	#wrapper { background-color: #000000;
+			color: #000066;
+			width: 80%;
+			margin: auto;
+	}
+	
+	header {background-image: url("candles7.jpg");
+		color: #000000;
+		font-size: 150%;
+		padding: 5px 20px 20px;
+		
+	}
+	h1{ margin-bottom: 0;
+		font-size: 250%;
+		font-family: Poppins, sans-serif;
+	}
+	#tag{ padding-right: 20px;
+		font-size: 140%;
+		font-family: Italianno, sans-serif;
+		text-align: right;
+		color: #ffffff;
+
+	}
+	h2 {color: #6EB4F5;
+		font-size: 200%;
+		padding: 10px;
+		margin: auto;
+		font-family: poppins, sans-serif;
+	
+	}
+	nav {float: none; width: auto;
+		background-color: #6EB4F5;
+		letter-spacing: 0.1em;
+		font-weight: bold;
+	}
+	nav ul {text-align: center;
+		list-style-type: none;
+		margin: 0;
+		padding: 0;
+		
+	}
+	nav li {color: #ffffff;
+		font-family: Poppins, sans-serif;
+		display: inline-block;
+		padding: 0.5em;
+
+	}
+	nav li:hover ul { display: block;}
+	nav ul ul {position: absolute;
+		background-color: #6EB4F5;
+		padding: 0;
+		text-align: left;
+		display: none;
+	}
+	nav ul ul li {border: 1px solid #000000;
+			display: block;
+			width: 8em;
+			padding-left: 1em;
+			margin-left: 0;
+	}
+	nav a {text-decoration: none;
+	}
+	nav a:link { color: #ffffff;
+	}
+	nav a:visited { color: #000000;
+	}
+	nav a:hover {color: #eaeaea;
+	}
+	main {  padding: 20px;
+		font-size: 105%;
+		background-color: #ffffff;
+		color: #000000;
+		font-family: Poppins, sans-serif;
+	}
+	legend { font-family: Poppins, Georgia, "Times New Roman", serif;
+        		font-weight: bold; 
+	}
+	label { font-family: Poppins, Arial, sans-serif; 
+	}
+	figure {        float: right;
+			right: 300px;
+			text-align: center;
+			opacity: .25;
+	}
+	
+	#gallery li {text-align: center;
+			padding: 10px;
+	}
+	#gallery img { border-style: none;
+	}
+	#gallery a { color: #000000;
+			text-decoration: none;
+			font-style: italic;
+	}
+	#gallery ul { width: 300px;
+		list-style-type: none;
+	}
+	#gallery span { position: absolute;
+			left: -1000px;
+			opacity: 0;
+			transition: opacity 3s ease-in-out;
+	}
+	#gallery a:hover span { position: absolute;
+				top: 517px;
+				left: 685px;
+				bottom: 100px;
+				right: 40px;
+				text-align: center;
+				opacity: 1;
+	}
+	figure {        float: right;
+			right: 300px;
+			text-align: center;
+			opacity: .25;
+	}
+	#gallery2 li {text-align: center;
+			padding: 10px;
+	}
+	#gallery2 img { border-style: none;
+	}
+	#gallery2 a { color: #000000;
+			text-decoration: none;
+			font-style: italic;
+	}
+	#gallery2 ul { width: 300px;
+		list-style-type: none;
+	}
+	#gallery2 span { position: absolute;
+			left: -1000px;
+			opacity: 0;
+			transition: opacity 3s ease-in-out;
+	}
+	#gallery2 a:hover span { position: absolute;
+				top: 1095px;
+				left: 685px;
+				bottom: 100px;
+				right: 220px;
+				text-align: center;
+				opacity: 1;
+	}
+
+
+
+	@media only screen and (max-width: 1024px) {
+		body {margin: 0;}
+		#wrapper {width: auto;}
+		main {margin-left: 0;}
+		nav {float: none; width: auto;}
+		nav li {display: inline-block; padding: 0.5em;}
+		nav ul {text-align: center;}
+		nav a {border-style: none;}
+		h1, h2 { 
+			padding: 0px;
+			padding-top: 20px;}
+		#gallery a:hover span {opacity 0;
+					
+		}
+		#gallery2 a:hover span {opacity 0;
+		}
+		p {font-size: 90%}
+		.fotorama {padding-right: 0px;}
+	}
+	@media only screen and (max-width: 768px) {
+		h1, h2 {font-size: 120%;}
+		p {font-size: 90%}
+		figure {display: none;}
+		nav, nav ul, nav li, nav ul ul, nav ul ul li {padding: 0;
+		}	
+		nav ul ul, nav ul ul li {float: left;}
+		.fotorama {width: 100px;
+				height:	300px;}	
+		
+		#gallery a:hover span {opacity 0;
+					
+		}
+		#gallery2 a:hover span {opacity 0;
+		}					
+	}
+	
+	footer { font-size: 70%;
+		color: #ffffff;
+		background-color: #6EB4F5;
+		text-align: center;
+		clear: right;
+		padding: 20px;
+		
+	
+	
+	}
+	.fotorama { float: right;
+			padding: 10px;
+			width: 300px;
+			height: 400px;		
+	}	
+	
